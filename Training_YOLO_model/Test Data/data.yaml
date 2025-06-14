@@ -1,0 +1,12 @@
+train: ../train/images
+val: ../valid/images
+
+nc: 1
+names: ['meteor']
+
+roboflow:
+  workspace: solar-burst
+  project: meteor-shower-detection-257vx
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/solar-burst/meteor-shower-detection-257vx/dataset/1
